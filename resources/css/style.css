@@ -1,0 +1,104 @@
+
+h1{
+  font-family: Helvetica;
+  font-size: 100px;
+  color: khaki;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 200px;
+  letter-spacing: 3px;
+}
+
+h2{
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  text-align: center;
+  background-color: mediumspringgreen;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+nav{
+  text-align: right;
+}
+
+
+.card{
+  margin: 0 auto 0 auto;
+  height: 380px;
+  width: 280px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  float: left;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card h4{
+  margin: 0 auto;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.card p {
+  margin: 0 auto 0 auto;
+  padding: 10px;
+}
+
+#craft{
+  display: flex;
+  padding-top: 40px;
+  background-image: url("../craft.jpeg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 450px;
+  width: 100%;
+  opacity: 0.7;
+}
+
+#framesHeading{
+  background-color: lightcoral;
+}
+
+#hero{
+  background-image: url("../pattern.jpeg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 750px;
+  width: 100%;
+  opacity: 0.7;
+}
+
+#hero a{
+  color: white;
+  font-size: 24px;
+  margin: 15px;
+  text-decoration: none;
+}
+
+#hero a:hover{
+  color: khaki;
+}
+
+#paintHeading{
+  background-color: skyblue;
+}
+
+
+.products {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 100%;
+  border: solid 1px black;
+  width: 150px;
+  height: 150px;
+}
